@@ -1,0 +1,16 @@
+B12 broke with G2
+G2 got newly commited with B53
+B19 broke with G11
+G11 got newly commited with B13
+B26 broke with G64
+G64 got newly commited with B2
+B32 broke with G27
+G27 got newly commited with B48
+B34 broke with G48
+G48 got newly commited with B10
+B45 broke with G67
+G67 got newly commited with B86
+B67 broke with G54
+G54 got newly commited with B45
+B87 broke with G15
+G15 got newly commited with B41
