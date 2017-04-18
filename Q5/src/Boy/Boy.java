@@ -91,7 +91,7 @@ public class Boy  {
     }
    
     //this is a constructor of the class boy
-   public Boy(int type,String name, int attractiveness, int budget,int iq,int iq_required) { 
+   public Boy(int type,String name, int attractiveness, int budget,int iq,int iq_required)throws Exception { 
        this.type =type ;
        this.name = name;
        this.attractiveness = attractiveness; 
