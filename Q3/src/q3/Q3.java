@@ -25,7 +25,7 @@ import java.util.List;
  */
 public class Q3 {
     //main class for question 2 !!!!! ENJOY YIPEEEEEEEE...!!
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
          CreateCSV.generateBoys();
          CreateCSV.generateGirls();
          //CreateCSV.generateGifts();
