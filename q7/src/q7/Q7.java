@@ -23,7 +23,7 @@ import java.util.ArrayList;
  * IIIT-Allahabad
  */
 public class Q7 {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws Exception {
          CreateCSV.generateBoys();
          CreateCSV.generateGirls();
          List<Boy> boys = ReadBoyData.readboyFromCSV("boy.txt");
