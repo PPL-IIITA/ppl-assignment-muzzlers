@@ -17,7 +17,7 @@ import java.util.List;
  * IIIT-Allahabad
  */
 public class ReadGifts {
-    public static List<Gift> readGiftFromCSV(String fileName)
+    public static List<Gift> readGiftFromCSV(String fileName)throws Exception
         {
             List<Gift> gifts = new ArrayList<>();
              Path pathToFile = Paths.get(fileName);
@@ -44,7 +44,7 @@ public class ReadGifts {
             return gifts;
         } 
     
-    public static Gift createGift(String[] metadata)
+    public static Gift createGift(String[] metadata)throws Exception
         { //creating the Gift local data 
             String name = metadata[0];
             int price = Integer.parseInt(metadata[1]);
