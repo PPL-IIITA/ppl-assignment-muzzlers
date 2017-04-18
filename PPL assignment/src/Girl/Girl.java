@@ -51,7 +51,7 @@ public class Girl {
         return happiness;
     }
     //this is the constructor for girl class
-    public Girl(String name, int att,int b_att,int main,int b_main,int iq,int b_iq) { 
+    public Girl(String name, int att,int b_att,int main,int b_main,int iq,int b_iq) throws Exception{ 
        this.name = name;
         this.type = random.nextInt(3-1)+1;
        this.attractiveness = att;
