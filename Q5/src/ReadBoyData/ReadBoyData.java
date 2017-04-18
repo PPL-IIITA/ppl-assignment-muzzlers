@@ -42,7 +42,7 @@ public class ReadBoyData {
             
             return boys;
         } 
-    public static Boy createBoy(String[] metadata)
+    public static Boy createBoy(String[] metadata)throws Exception
         { 
             String name = metadata[0];
             int attractiveness = Integer.parseInt(metadata[1]);
