@@ -20,7 +20,7 @@ import java.util.List;
  * IIIT-Allahabad
  */
 public class givegifts {
-    public static void GiveGift( List<Boy> boys,List<Gift> gifts){
+    public static void GiveGift( List<Boy> boys,List<Gift> gifts)throws Exception{
         //this functions decides the way to give the gifts
         //here below we sort the gift on the basis of price of each gifts
        if (gifts.size() > 0) {
