@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class compatible {
       //hey this is to getthe best k compatible couple ,for easyness k=10
-    public static void K_compatible(List<Girl> girls,List<Boy> boys){
+    public static void K_compatible(List<Girl> girls,List<Boy> boys)throws Exception{
         List<Boy> boys1;
         boys1=boys;
         //sorting boys on the basis of compatibility
