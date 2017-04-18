@@ -27,7 +27,7 @@ public class Make_pair {
      * @param couple
      * @return
      */
-    public static int MakePair( Girl g, Boy b,int c,List<Couple> couple){
+    public static int MakePair( Girl g, Boy b,int c,List<Couple> couple)throws Exception{
         if(!g.is_Gcommitted(g) && !b.is_Bcommitted(b)){
             if(  g.getBfAttractiveness()<=b.getBAttractiveness()){
                 if(g.getGMaintainance()<=b.get_Bbudget()){
