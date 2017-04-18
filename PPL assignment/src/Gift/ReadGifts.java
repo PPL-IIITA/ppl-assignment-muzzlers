@@ -44,7 +44,7 @@ public class ReadGifts {
             return gifts;
         } 
     
-    public static Gift createGift(String[] metadata)
+    public static Gift createGift(String[] metadata)throws Exception
         { //creating the Gift local data 
             String name = metadata[0];
             int price = Integer.parseInt(metadata[1]);
