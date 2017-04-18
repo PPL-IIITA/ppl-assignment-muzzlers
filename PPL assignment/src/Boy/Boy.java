@@ -80,7 +80,7 @@ public class Boy  {
     }
    
     //this is a constructor of the class boy
-   public Boy(String name, int attractiveness, int budget,int iq,int iq_required) { 
+   public Boy(String name, int attractiveness, int budget,int iq,int iq_required)throws Exception { 
        this.type = random.nextInt(3-1)+1;
        this.name = name;
        this.attractiveness = attractiveness; 
