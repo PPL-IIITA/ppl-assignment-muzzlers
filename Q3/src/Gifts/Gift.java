@@ -13,7 +13,7 @@ public class Gift {
     String type;
     float difficulty_to_find;
     //constructor of gift
-    public Gift(String type, int price, int value) { 
+    public Gift(String type, int price, int value)throws Exception { 
        this.type=type;
        this.price=price; 
        this.value=value;
