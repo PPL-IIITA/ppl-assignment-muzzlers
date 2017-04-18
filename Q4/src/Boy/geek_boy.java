@@ -19,7 +19,7 @@ public class geek_boy extends Boy {
      * @param iq
      * @param iq_required
      */
-    public geek_boy(String name,int attractiveness,int budget,int iq,int iq_required) {
+    public geek_boy(String name,int attractiveness,int budget,int iq,int iq_required) throws Exception{
         super(3,name,attractiveness,budget,iq,iq_required);
   
     }
