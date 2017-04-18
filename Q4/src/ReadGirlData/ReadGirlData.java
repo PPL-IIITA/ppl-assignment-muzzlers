@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class ReadGirlData {
     //this is to read data fromgirl .csv and write to all attributes of girl
-     public static List<Girl> readGirlFromCSV(String fileName)
+     public static List<Girl> readGirlFromCSV(String fileName)throws Exception
         {
             List<Girl> girls = new ArrayList<>();
              Path pathToFile = Paths.get(fileName);
@@ -37,7 +37,7 @@ public class ReadGirlData {
             } 
             return girls;
         } 
-        public static Girl createGirl(String[] metadata)
+        public static Girl createGirl(String[] metadata)throws Exception
         { 
             String name = metadata[0];
             int att = Integer.parseInt(metadata[1]);
