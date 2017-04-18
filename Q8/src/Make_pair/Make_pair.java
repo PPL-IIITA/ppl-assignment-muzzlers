@@ -15,7 +15,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 public class Make_pair {
     //this function make pair of valid couple by fulfilling all the constarints
-    public static void MakePair( Girl g, Boy b){
+    public static void MakePair( Girl g, Boy b)throws Exception{
         if(!g.is_Gcommitted(g) && !b.is_Bcommitted(b)){
             if(  g.getBfAttractiveness()<=b.getBAttractiveness()){
                 if(g.getGMaintainance()<=b.get_Bbudget()){
