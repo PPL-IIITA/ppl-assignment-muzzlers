@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class ReadBoyData {
    //this to read the data of boys ie his attribute from the boy.csv 
-    public static List<Boy> readboyFromCSV(String fileName)
+    public static List<Boy> readboyFromCSV(String fileName)throws Exception
         {
             List<Boy> boys = new ArrayList<>();
              Path pathToFile = Paths.get(fileName);
